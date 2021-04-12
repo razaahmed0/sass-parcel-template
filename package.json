@@ -12,26 +12,6 @@
 	"license": "ISC",
 	"devDependencies": {
 		"parcel-bundler": "^1.12.5",
-		"parcel-plugin-custom-dist-structure": "^1.1.17",
 		"sass": "^1.32.8"
-	},
-	"customDistStructure": {
-		"config": {
-			"assets/js": [
-				".js",
-				".js.map"
-			],
-			"assets/img": [
-				".jpg",
-				".png"
-			],
-			"assets/css": [
-				".css",
-				".css.map"
-			]
-		},
-		"options": {
-			"development": true
-		}
 	}
 }
